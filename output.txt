@@ -1,0 +1,431 @@
+Sharing 4 resources
+[0.0] Currently available resources
+    R00 R01 R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+TOT   1   1   1   1   1   1   1   1   1   1   6   1   1   2   1   5   1   1   1   1 
+OSS   1   1   1   1   1   1   1   1   1   1   6   1   1   2   1   5   1   1   1   1 
+[1.5357] OSS: Generating process with PID 0
+[2.14964] OSS: Generating process with PID 1
+[3.20785] OSS: Generating process with PID 2
+[3.20785] Master granting P0 request R11=1
+[3.20863] Master granting P1 request R4=1
+[3.20943] Master granting P2 request R6=1
+[4.24568] OSS: Generating process with PID 3
+[4.24568] Master granting P0 request R0=1
+[4.24661] Master has acknowledged Process P1 releasing R4=-1
+[4.24724] Master has acknowledged Process P2 releasing R6=-1
+[5.34065] OSS: Generating process with PID 4
+[5.34065] Master granting P1 request R17=1
+[5.34073] Master blocking P2 for requesting R0=1
+[6.36884] OSS: Generating process with PID 5
+[6.36904] Master granting P3 request R13=1
+[6.36924] Master granting P0 request R15=1
+[6.37011] Master granting P4 request R12=1
+[6.37096] Master granting P1 request R14=1
+[6.37104] Master granting P5 request R15=1
+[7.40644] OSS: Generating process with PID 6
+[7.40725] Master granting P0 request R4=1
+[7.40821] Master blocking P3 for requesting R12=1
+[7.40895] Master has acknowledged Process P1 releasing R14=-1
+[7.40930] Master granting P4 request R15=1
+[7.40953] Master has acknowledged Process P5 releasing R15=-1
+[8.44785] OSS: Generating process with PID 7
+[8.44952] Master granting P0 request R18=1
+[8.44965] Master granting P1 request R7=1
+[8.44993] Master blocking P4 for requesting R17=1
+[8.45049] Master granting P5 request R19=1
+[9.53189] OSS: Generating process with PID 8
+[9.53394] Master has acknowledged Process P5 releasing R19=-1
+[9.53475] Master blocking P6 for requesting R11=1
+[9.53561] Master granting P0 request R13=1
+[9.53656] Master granting P7 request R16=1
+[9.53682] Master has acknowledged Process P1 releasing R7=-1
+[9.53776] Master blocking P8 for requesting R17=1
+[10.55061] OSS: Generating process with PID 9
+[10.55270] Master has acknowledged Process P0 releasing R15=-1
+[10.55356] Master granting P1 request R3=1
+[10.55367] Master granting P5 request R2=1
+[10.55400] Master granting P7 request R8=1
+[11.56219] OSS: Generating process with PID 10
+[11.56417] Master blocking P1 for requesting R16=1
+[11.56436] Master blocking P7 for requesting R3=1
+[12.59324] OSS: Generating process with PID 11
+[12.59799] Master blocking P9 for requesting R2=1
+[12.59876] Master granting P0 request R1=1
+[12.59937] Master blocking P5 for requesting R12=1
+[12.59959] Master blocking P10 for requesting R8=1
+[13.68815] OSS: Generating process with PID 12
+[13.69327] Master granting P11 request R14=1
+[13.69365] Master has detected P0 exited
+[14.71096] OSS: Generating process with PID 13
+[14.71554] Master has detected P4 exited
+[15.75327] OSS: Generating process with PID 14
+[15.75327] Master unblocking P7 and granting it R3=1
+[15.75470] Master unblocking P5 and granting it R12=1
+[15.75613] Master has detected P1 exited
+[15.75613] Master has detected P3 exited
+[16.84925] OSS: Generating process with PID 15
+[16.85066] Master has acknowledged Process P7 releasing R3=-1
+[16.85111] Master has detected P5 exited
+[17.91995] OSS: Generating process with PID 16
+[17.92104] Master granting P12 request R10=1
+[17.92180] Master has detected P2 exited
+[17.92180] Master has detected P6 exited
+[17.92180] Master has detected P8 exited
+[18.92256] OSS: Generating process with PID 17
+[18.92313] Master has acknowledged Process P11 releasing R14=-1
+[18.92342] Master blocking P12 for requesting R8=1
+[18.92355] Master blocking P13 for requesting R18=1
+[19.98296] OSS: Generating process with PID 18
+[19.98613] Master granting P15 request R3=1
+[19.98666] Master granting P16 request R14=1
+[19.98677] Master blocking P14 for requesting R11=1
+[19.98759] Master granting P11 request R10=1
+[19.98827] Master has detected P7 exited
+[20.104848] OSS: Generating process with PID 19
+[20.105012] Master granting P17 request R15=1
+[20.105081] Master blocking P11 for requesting R18=1
+[20.105087] Master granting P16 request R6=1
+[21.108564] OSS: Generating process with PID 20
+[21.108923] Master has acknowledged Process P17 releasing R15=-1
+[21.108941] Master blocking P15 for requesting R18=1
+[21.109027] Master blocking P18 for requesting R11=1
+[21.109058] Master blocking P19 for requesting R8=1
+[21.109157] Master granting P16 request R9=1
+[21.109157] Master blocking P20 for requesting R2=1
+[22.109428] OSS: Generating process with PID 21
+[22.109939] Master blocking P17 for requesting R3=1
+[22.110015] Master has acknowledged Process P16 releasing R9=-1
+[23.118994] OSS: Generating process with PID 22
+[23.119441] Master granting P16 request R13=1
+[24.128488] OSS: Generating process with PID 23
+[24.129078] Master granting P21 request R7=1
+[24.129084] Master granting P22 request R15=1
+[24.129090] Master blocking P16 for requesting R0=1
+[24.129129] Master blocking P23 for requesting R11=1
+[25.134186] OSS: Generating process with PID 24
+[25.134993] Master blocking P21 for requesting R1=1
+[25.135002] Master has acknowledged Process P22 releasing R15=-1
+[26.136156] OSS: Generating process with PID 25
+[26.136803] Master blocking P22 for requesting R1=1
+[27.143778] OSS: Generating process with PID 26
+[27.144578] Master blocking P24 for requesting R13=1
+[27.144660] Master granting P25 request R10=2
+[27.144756] Master blocking P26 for requesting R18=1
+[28.148878] OSS: Generating process with PID 27
+[28.149866] Master has acknowledged Process P25 releasing R10=-1
+[29.152713] OSS: Generating process with PID 28
+[29.153545] Master blocking P25 for requesting R8=1
+[30.159032] Master has detected P9 exited
+[31.165040] OSS: Generating process with PID 29
+[31.165040] Master unblocking P17 and granting it R3=1
+[31.165065] Master unblocking P24 and granting it R13=1
+[31.165083] Master granting P27 request R6=1
+[31.165124] Master has detected P13 exited
+[31.165124] Master has detected P14 exited
+[31.165124] Master has detected P18 exited
+[31.165124] Master has detected P10 exited
+[32.168894] OSS: Generating process with PID 30
+[32.168894] Master blocking P28 for requesting R1=1
+[32.168954] Master has acknowledged Process P24 releasing R13=-1
+[32.169022] Master blocking P27 for requesting R3=1
+[32.169079] Master has detected P15 exited
+[32.169079] Master has detected P21 exited
+[32.169079] Master has detected P11 exited
+[32.169079] Master has detected P12 exited
+[33.172149] OSS: Generating process with PID 31
+[33.172256] Master granting P24 request R17=1
+[33.172274] Master has detected P16 exited
+[33.172274] Master has detected P19 exited
+[33.172274] Master has detected P20 exited
+[34.181994] OSS: Generating process with PID 32
+[34.182139] Master granting P29 request R19=1
+[34.182176] Master has detected P17 exited
+[34.182176] Master has detected P22 exited
+[34.182176] Master has detected P23 exited
+[34.182176] Master has detected P25 exited
+[35.187653] OSS: Generating process with PID 33
+[35.187740] Master blocking P29 for requesting R0=1
+[35.187777] Master has detected P26 exited
+[36.189029] OSS: Generating process with PID 34
+[37.194436] OSS: Generating process with PID 35
+[37.194436] Master granting P31 request R19=1
+[37.194532] Master blocking P33 for requesting R16=1
+[37.194586] Master granting P30 request R7=1
+[37.194616] Master granting P35 request R15=3
+[37.194683] Master has detected P29 exited
+[37.194683] Master has detected P24 exited
+[37.194683] Master has detected P27 exited
+[37.194683] Master has detected P28 exited
+[38.196988] OSS: Generating process with PID 36
+[38.197050] Master blocking P30 for requesting R2=1
+[38.197077] Master blocking P32 for requesting R2=1
+[38.197159] Master blocking P31 for requesting R4=1
+[38.197240] Master has acknowledged Process P35 releasing R15=-2
+[39.202464] OSS: Generating process with PID 37
+[39.202721] Master blocking P34 for requesting R2=1
+[39.202728] Master blocking P35 for requesting R7=1
+[39.202729] Master granting P36 request R13=1
+[39.202762] Master blocking P37 for requesting R11=1
+[40.207875] OSS: Generating process with PID 38
+[40.208295] Master blocking P36 for requesting R12=1
+[41.214412] OSS: Generating process with PID 39
+[41.214831] Master has detected P33 exited
+[42.216957] OSS: Generating process with PID 40
+[42.216957] Master unblocking P35 and granting it R7=1
+[42.216998] Master has detected P34 exited
+[42.216998] Master has detected P37 exited
+[43.226610] OSS: Generating process with PID 41
+[43.226610] Master blocking P35 for requesting R17=1
+[43.226656] Master granting P38 request R13=1
+[43.226753] Master has detected P32 exited
+[44.234058] OSS: Generating process with PID 42
+[44.234144] Master has detected P31 exited
+[45.234854] OSS: Generating process with PID 43
+[45.234854] Master granting P38 request R19=1
+[45.234874] Master blocking P39 for requesting R8=1
+[45.234919] Master has detected P30 exited
+[45.234919] Master has detected P35 exited
+[45.234919] Master has detected P36 exited
+[46.243782] OSS: Generating process with PID 44
+[47.247060] OSS: Generating process with PID 45
+[47.247060] Master granting P41 request R10=2
+[47.247158] Master granting P42 request R14=1
+[47.247209] Master blocking P38 for requesting R12=1
+[47.247303] Master blocking P40 for requesting R11=1
+[47.247312] Master blocking P44 for requesting R2=1
+[47.247351] Master has detected P39 exited
+[48.251111] OSS: Generating process with PID 46
+[48.251250] Master blocking P41 for requesting R12=1
+[48.251344] Master granting P43 request R5=1
+[48.251375] Master blocking P45 for requesting R13=1
+[48.251460] Master has acknowledged Process P42 releasing R14=-1
+[48.251534] Master blocking P46 for requesting R2=1
+[49.256769] OSS: Generating process with PID 47
+[49.257101] Master blocking P43 for requesting R19=1
+[49.257150] Master blocking P42 for requesting R1=1
+[50.260187] OSS: Generating process with PID 48
+[50.260578] Master has detected P40 exited
+[51.269458] OSS: Generating process with PID 49
+[51.269458] Master unblocking P45 and granting it R13=1
+[51.269514] Master unblocking P43 and granting it R19=1
+[51.269581] Master has detected P44 exited
+[51.269581] Master has detected P41 exited
+[52.270852] OSS: Generating process with PID 50
+[52.270852] Master has detected P46 exited
+[53.279768] OSS: Generating process with PID 51
+[53.279768] Master granting P47 request R15=1
+[53.279845] Master has detected P42 exited
+[53.279845] Master has detected P38 exited
+[54.283199] OSS: Generating process with PID 52
+[54.283199] Master granting P48 request R9=1
+[54.283265] Master has acknowledged Process P43 releasing R19=-1
+[54.283337] Master has acknowledged Process P45 releasing R13=-1
+[54.283422] Master blocking P47 for requesting R8=1
+[55.290123] OSS: Generating process with PID 53
+[55.290141] Master granting P50 request R19=1
+[55.290146] Master blocking P49 for requesting R2=1
+[55.290170] Master blocking P45 for requesting R5=1
+[55.290184] Master granting P52 request R15=1
+[55.290223] Master granting P48 request R6=1
+[55.290250] Master blocking P43 for requesting R0=1
+[55.290301] Master blocking P53 for requesting R3=1
+[55.290338] Master blocking P51 for requesting R2=1
+[56.295300] OSS: Generating process with PID 54
+[56.295539] Master blocking P50 for requesting R1=1
+[56.295633] Master blocking P48 for requesting R16=1
+[56.295696] Master blocking P52 for requesting R19=1
+[57.298164] OSS: Generating process with PID 55
+[57.298532] Master has detected P43 exited
+[58.304442] OSS: Generating process with PID 56
+[58.304442] Master unblocking P52 and granting it R19=1
+[58.304455] Master has detected P45 exited
+[58.304455] Master has detected P48 exited
+[59.313163] OSS: Generating process with PID 57
+[59.313163] Master blocking P52 for requesting R2=1
+[59.313230] Master has detected P47 exited
+[60.322019] OSS: Generating process with PID 58
+[60.322042] Master blocking P54 for requesting R8=1
+[60.322048] Master has detected P49 exited
+[60.322048] Master has detected P53 exited
+[61.323865] OSS: Generating process with PID 59
+[61.324034] Master blocking P55 for requesting R2=1
+[61.324080] Master has detected P50 exited
+[62.324240] OSS: Generating process with PID 60
+[62.324379] Master has detected P51 exited
+[63.332331] OSS: Generating process with PID 61
+[63.332331] Master blocking P57 for requesting R4=1
+[63.332347] Master blocking P56 for requesting R12=1
+[63.332377] Master blocking P60 for requesting R4=1
+[63.332423] Master blocking P61 for requesting R11=1
+[63.332454] Master has detected P52 exited
+[63.332454] Master has detected P54 exited
+[63.332454] Master has detected P55 exited
+[64.335079] OSS: Generating process with PID 62
+[64.335160] Master blocking P58 for requesting R2=1
+[64.335203] Master blocking P59 for requesting R8=1
+[64.335232] Master blocking P62 for requesting R17=1
+[65.344404] OSS: Generating process with PID 63
+[65.344730] Master has detected P60 exited
+[65.344730] Master has detected P57 exited
+[66.347971] OSS: Generating process with PID 64
+[66.347971] Master has detected P61 exited
+[66.347971] Master has detected P58 exited
+[67.351708] OSS: Generating process with PID 65
+[67.351708] Master has detected P62 exited
+[68.353428] OSS: Generating process with PID 66
+[69.361943] OSS: Generating process with PID 67
+[69.361943] Master blocking P63 for requesting R13=2
+[69.361976] Master blocking P64 for requesting R1=1
+[69.362042] Master blocking P65 for requesting R8=1
+[69.362069] Master has detected P56 exited
+[69.362069] Master has detected P59 exited
+[70.367090] OSS: Generating process with PID 68
+[70.367313] Master granting P67 request R15=3
+[70.367362] Master blocking P66 for requesting R0=1
+[70.367461] Master blocking P68 for requesting R17=1
+[71.375961] OSS: Generating process with PID 69
+[71.376192] Master blocking P67 for requesting R11=1
+[72.384366] OSS: Generating process with PID 70
+[72.384717] Master has detected P64 exited
+[73.385332] OSS: Generating process with PID 71
+[73.385332] Master has detected P66 exited
+[73.385332] Master has detected P65 exited
+[73.385332] Master has detected P63 exited
+[74.387306] OSS: Generating process with PID 72
+[74.387306] Master has detected P68 exited
+[75.396664] OSS: Generating process with PID 73
+[76.400520] OSS: Generating process with PID 74
+[76.400520] Master granting P69 request R6=1
+[76.400584] Master has detected P67 exited
+[77.401663] OSS: Generating process with PID 75
+[77.401663] Master blocking P71 for requesting R16=1
+[77.401686] Master granting P72 request R7=1
+[77.401735] Master blocking P70 for requesting R2=1
+[77.401780] Master granting P75 request R19=1
+[78.410853] OSS: Generating process with PID 76
+[78.411003] Master blocking P75 for requesting R4=1
+[78.411046] Master blocking P73 for requesting R6=1
+[78.411073] Master has acknowledged Process P72 releasing R7=-1
+[78.411096] Master blocking P74 for requesting R16=1
+[78.411111] Master blocking P69 for requesting R17=1
+[78.411171] Master blocking P76 for requesting R17=1
+[79.414931] OSS: Generating process with PID 77
+[79.415320] Master blocking P72 for requesting R16=1
+[80.419533] OSS: Generating process with PID 78
+[80.419900] Master has detected P73 exited
+[81.420003] OSS: Generating process with PID 79
+[81.420003] Master has detected P72 exited
+[81.420003] Master has detected P75 exited
+[82.426396] OSS: Generating process with PID 80
+[82.426396] Master has detected P76 exited
+[83.432246] OSS: Generating process with PID 81
+[83.432246] Master granting P77 request R6=1
+[83.432252] Master granting P78 request R10=1
+[83.432315] Master granting P79 request R7=1
+[83.432396] Master blocking P81 for requesting R6=1
+[83.432426] Master has detected P71 exited
+[83.432426] Master has detected P69 exited
+[83.432426] Master has detected P74 exited
+[83.432426] Master has detected P70 exited
+[84.436284] OSS: Generating process with PID 82
+[84.436344] Master blocking P78 for requesting R8=1
+[84.436398] Master blocking P79 for requesting R16=1
+[85.440644] OSS: Generating process with PID 83
+[85.440852] Master blocking P80 for requesting R8=1
+[85.440873] Master has acknowledged Process P77 releasing R6=-1
+[85.440884] Master blocking P82 for requesting R3=1
+[85.440978] Master granting P83 request R6=1
+[86.446785] OSS: Generating process with PID 84
+[86.446979] Master blocking P77 for requesting R17=1
+[86.446979] Master has acknowledged Process P83 releasing R6=-1
+[87.453802] OSS: Generating process with PID 85
+[87.453802] Master unblocking P81 and granting it R6=1
+[87.454257] Master granting P83 request R5=1
+[88.461140] OSS: Generating process with PID 86
+[88.461304] Master granting P81 request R15=2
+[88.461330] Master blocking P83 for requesting R18=1
+[88.461338] Master granting P84 request R19=1
+[88.461374] Master granting P85 request R14=1
+[88.461386] Master granting P86 request R13=1
+[89.466919] OSS: Generating process with PID 87
+[89.467225] Master granting P84 request R15=2
+[89.467299] Master blocking P85 for requesting R12=1
+[89.467382] Master granting P81 request R10=3
+[89.467385] Master blocking P86 for requesting R15=4
+[90.471432] OSS: Generating process with PID 88
+[90.471793] Master blocking P81 for requesting R17=1
+[91.480713] OSS: Generating process with PID 89
+[91.481136] Master granting P87 request R15=1
+[91.481225] Master blocking P84 for requesting R13=1
+[91.481313] Master granting P88 request R9=1
+[91.481409] Master blocking P89 for requesting R9=1
+[92.484131] OSS: Generating process with PID 90
+[92.484703] Master blocking P87 for requesting R16=1
+[92.484743] Master has acknowledged Process P88 releasing R9=-1
+[93.493937] OSS: Generating process with PID 91
+[93.494466] Master unblocking P89 and granting it R9=1
+[93.494575] Master blocking P88 for requesting R17=1
+[94.500836] OSS: Generating process with PID 92
+[94.501494] Master blocking P89 for requesting R15=1
+[94.501530] Master blocking P90 for requesting R0=1
+[94.501561] Master blocking P91 for requesting R7=1
+[94.501597] Master blocking P92 for requesting R17=1
+[95.510411] OSS: Generating process with PID 93
+[95.511162] Master has detected P79 exited
+[95.511162] Master has detected P78 exited
+[96.511676] OSS: Generating process with PID 94
+[96.511676] Master unblocking P84 and granting it R13=1
+[96.511716] Master unblocking P89 and granting it R15=1
+[96.511791] Master unblocking P91 and granting it R7=1
+[96.511863] Master has detected P82 exited
+[96.511863] Master has detected P81 exited
+[96.511863] Master has detected P85 exited
+[97.517275] OSS: Generating process with PID 95
+[97.517275] Master has acknowledged Process P91 releasing R7=-1
+[97.517353] Master has detected P83 exited
+[97.517353] Master has detected P88 exited
+[98.525374] OSS: Generating process with PID 96
+[98.525374] Master blocking P91 for requesting R11=1
+[98.525389] Master granting P89 request R14=1
+[98.525445] Master has detected P86 exited
+[99.529762] OSS: Generating process with PID 97
+[99.529813] Master granting P93 request R7=1
+[99.529901] Master blocking P89 for requesting R8=1
+[99.529955] Master has detected P80 exited
+[99.529955] Master has detected P77 exited
+[99.529955] Master has detected P92 exited
+[100.539256] OSS: Generating process with PID 98
+[100.539279] Master blocking P94 for requesting R14=1
+[100.539315] Master has detected P84 exited
+[100.539315] Master has detected P87 exited
+[101.539766] OSS: Generating process with PID 99
+[101.539891] Master blocking P93 for requesting R4=1
+[101.539906] Master has detected P90 exited
+[102.540656] Master blocking P96 for requesting R18=1
+[103.541130] Master has detected P91 exited
+[104.547231] Master unblocking P94 and granting it R14=1
+[104.547314] Master has detected P96 exited
+[104.547314] Master has detected P89 exited
+[106.548033] Master granting P95 request R9=1
+[106.548132] Master has acknowledged Process P94 releasing R14=-1
+[108.561775] Master blocking P99 for requesting R11=1
+[108.561816] Master has detected P93 exited
+[110.574611] Master has detected P99 exited
+[113.588368] Master blocking P98 for requesting R12=1
+[113.588410] Master has detected P94 exited
+[114.594902] Master has acknowledged Process P95 releasing R9=-1
+[115.601944] Master blocking P95 for requesting R19=1
+[117.613418] Master has detected P95 exited
+[117.613418] Master has detected P98 exited
+[118.622136] Master granting P97 request R5=1
+[119.624971] Master blocking P97 for requesting R1=1
+[121.627084] Master has detected P97 exited
+Runtime: 121:627084
+Users: 100/100
+Requested: 71
+Released: 25
+Accepted: 85
+Blocked: 107
+Denied: 93
+Deadlocks: 17
+Kills: 93
